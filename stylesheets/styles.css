@@ -1,159 +1,65 @@
+
 body {
   margin: 0;
   padding: 0;
-  background: #4dbaf3;
-  color: white;
-  font: 16px;
-  line-height: 1.5;
+  background-color: #4dbaf3;
+  color: #d0d3d4;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
-
-/* General & 'Reset' Stuff */
-
-header h1 {
-  width: 90%;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-section {
-  display: block;
-  margin: 0 0 20px 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 20px;
-}
-
-li {
-  line-height: 1.4 ;
-}
-
-/* Header, <header>
-   header   - container
-   h1       - project name
-   h2       - project description
-*/
-
-header {
-  width: 100%;
-  border-bottom: 1px dashed #934df3;
-  padding: 20px 0;
-  margin: 0 0 40px 0;
-}
-
-header h1 {
-  font-size: 30px;
-  line-height: 1.5;
-  margin: 0 0 0 -40px;
-  font-weight: bold;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
-  letter-spacing: -1px;
-  -webkit-font-smoothing: antialiased;
-}
-
-
-
-
-
-
-/* Buttons
-*/
-
-.btn {
-  display: inline-block;
-  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
-  padding: 8px 18px;
-  border-radius: 50px;
-  border: 2px solid rgba(0, 0, 0, 0.7);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
-  border-top: 2px solid rgba(0, 0, 0, 1);
-  color: rgba(255, 255, 255, 0.8);
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
-}
-
-.btn .icon {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin: 1px 8px 0 0;
-  float: left;
-}
-
-.btn-github .icon {
-  opacity: 0.6;
-  background: url("../images/blacktocat.png") 0 0 no-repeat;
-}
-
-/* Links
-   a, a:hover, a:visited
-*/
-
-a {
-  color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
-}
-
-/* Clearfix */
-
-.cf:before, .cf:after {
-  content:"";
-  display:table;
-}
-
-.cf:after {
-  clear:both;
-}
-
-.cf {
-  zoom:1;
-}
-
-/*article*/
-
-section.box {
-  display: -moz-box;
-  display: -webkit-box;
-  display: box;
+li{ list-style: none; }
+#inner{
   width: 60%;
-  position: relative;
-  left: 20%;
-  color: #b5e853;
-  border-bottom: 1px dashed #b5e853;
+  margin-left: 20%;
 }
-section.left {
-  -moz-box-flex: 1.0;
-  -webkit-box-flex: 1.0;
-  box-flex: 1.0;
-  padding:15px 0; 
-
-
+header{ 
+	color: white;
+	height: 100px;
+	line-height: 100px;
+	font-size: 40px;
+	background-color: #1987c1;
+	margin-left: -33.3%;
+	padding-left: 33.3%;
+	margin-right: -33.3%;
+	padding-right: 33.3%;
 }
-section.right {
-  -moz-box-flex: 2.0;
-  -webkit-box-flex: 2.0;
-  box-flex: 2.0;
-  color: aquamarine;
+section{
+	display: block;
+	
 }
-
-#message > ul {
-  display: inline-block;
+section.information{
+	height: 200px;
+	border-bottom: 1px dashed #aba6a6;
 }
-#message>ul>li {
-display: block;
+ul{
+	padding: 0;
 }
-#message{
-  position:relative;
-  left:-2em;
+section.top{
+	height: 70px;
+	line-height: 70px;
+	font-size: 25px;
+	color: white; 
+	border-bottom: 1px dashed #aba6a6;
+}
+section.left{
+	display: inline-block;
+}
+section.right{
+	display: inline-block;
+	float: right;
+}
+section.introduce{
+	height: 220px;
+	border-bottom: 1px dashed #aba6a6;
+}
+section.skill{
+	height: 170px;
+	border-bottom: 1px dashed #aba6a6;
+}
+section.experience{
+	height: 150px;
+	border-bottom: 1px dashed #aba6a6;
+}
+section.habit{
+	height: 120px;
+	border-bottom: 1px dashed #aba6a6;
 }
