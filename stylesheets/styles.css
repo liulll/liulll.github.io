@@ -45,7 +45,7 @@ section.left{
 }
 section.right{
 	display: inline-block;
-	float: right;
+	margin-left :270px ;
 }
 section.introduce{
 	height: 220px;
