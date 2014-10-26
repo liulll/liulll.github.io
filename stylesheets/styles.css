@@ -27,7 +27,7 @@ section{
 	
 }
 section.information{
-	height: 200px;
+
 	border-bottom: 1px dashed #aba6a6;
 }
 ul{
@@ -48,18 +48,18 @@ section.right{
 	margin-left :270px ;
 }
 section.introduce{
-	height: 220px;
+
 	border-bottom: 1px dashed #aba6a6;
 }
 section.skill{
-	height: 170px;
+
 	border-bottom: 1px dashed #aba6a6;
 }
 section.experience{
-	height: 150px;
+
 	border-bottom: 1px dashed #aba6a6;
 }
 section.habit{
-	height: 120px;
+
 	border-bottom: 1px dashed #aba6a6;
 }
