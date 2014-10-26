@@ -23,7 +23,7 @@ header{
 	padding-right: 33.3%;
 }
 section{
-	display: block;
+	display: inline-block;
 	
 }
 section.information{
